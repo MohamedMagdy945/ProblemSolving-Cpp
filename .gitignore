@@ -1,0 +1,64 @@
+# Ignore build artifacts
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.ilk
+*.lib
+*.out
+*.so
+*.idb
+*.exp
+*.ipdb
+*.iobj
+
+# Ignore build directories
+/build/
+/bin/
+/lib/
+
+# Ignore Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.ncb
+*.opendb
+*.VC.db
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore IDE-specific files
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Qt Creator
+*.pro.user
+*.qrc.dep
+*.autosave
+
+# Windows system files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore any other temporary or editor-specific files
+*.~*
+*.orig
+*.save

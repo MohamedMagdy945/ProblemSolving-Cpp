@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1737450170 source:c:\users\mohamed\documents\problemsolving\src\zigzagproblem.cpp
+	"ZigZagProblem.h"
+	<string>
+	<vector>
+
+1737472680 c:\users\mohamed\documents\problemsolving\include\zigzagproblem.h
+	<string>
+
+1737473342 source:c:\users\mohamed\documents\problemsolving\src\searchinsertposition.cpp
+	"SearchInsertPosition.h"
+	<vector>
+
+1737473340 c:\users\mohamed\documents\problemsolving\include\searchinsertposition.h
+	<vector>
+
+1737694403 source:c:\users\mohamed\documents\problemsolving\main.cpp
+	<iostream>
+	<vector>
+	<ZigZagProblem.h>
+	<SearchInsertPosition.h>
+	<JumpGame2.h>
+
+1737694568 source:c:\users\mohamed\documents\problemsolving\src\jumpgame2.cpp
+	"JumpGame2.h"
+	<vector>
+	<algorithm>
+
+1737693344 c:\users\mohamed\documents\problemsolving\include\jumpgame2.h
+	<vector>
+
+1737699016 source:c:\users\mohamed\documents\problemsolving\src\insertinterval.cpp
+	"InsertInterval.h"
+	<vector>
+
+1737699066 c:\users\mohamed\documents\problemsolving\include\insertinterval.h
+	<vector>
+
