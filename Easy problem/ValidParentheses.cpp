@@ -1,0 +1,40 @@
+#include<iostream>
+#include<stack>
+using namespace std;
+
+bool isValid(string s)
+{
+    stack<char> st ;
+
+    for(int i = 0 ; i < s.length() ; i++)
+    {
+        if(s[i] == '(' || s[i] == '{'  || s[i] == '['){
+            st.push(s[i]);
+        }
+        else {
+
+            if (st.empty())
+                return false ;
+            char c = st.top();
+
+            if (s[i] == ']' && c == '['  ||  s[i] == '}' && c == '{' || s[i] == ')' && c == '(' ){
+                st.pop();
+            }
+            else {
+                return false ;
+            }
+        }
+    }
+    return st.empty();
+}
+
+int main(){
+    freopen("in.txt", "r" , stdin);
+    string s ; 
+    cin >> s;
+    cout<< isValid(s) << endl ;
+
+    fclose(stdin);
+
+    
+}
