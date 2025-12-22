@@ -29,9 +29,6 @@ bool isValid(string s)
 }
 
 int main(){
-    freopen("in.txt", "r" , stdin);
-    string s ; 
-    cin >> s;
-    cout<< isValid(s) << endl ;
+    cout<< isValid("[()]") << endl ;
     fclose(stdin);
 }

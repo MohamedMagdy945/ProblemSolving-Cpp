@@ -18,12 +18,10 @@ string longestCommonPrefix(vector<string>& strs){
 }
 
 int main(){
-    freopen("in.txt" , "r" , stdin);
     vector<string> strs;
-    string line;
-    while (getline(cin , line)){
-        strs.push_back(line);
-    }
+    strs.push_back("flower");
+    strs.push_back("flow");
+    strs.push_back("flight");
 
     cout<< longestCommonPrefix(strs);
     fclose(stdin);

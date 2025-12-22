@@ -26,14 +26,9 @@ int romanToInt(string s){
 }
 
 int main (){
-    freopen("in.txt", "r", stdin);
-    string s ;
-    cin >> s; 
+ 
 
-    
-    cout << romanToInt(s) << endl ; 
-
-    fclose(stdin);
+    cout << romanToInt("IIV") << endl ; 
 
     return 0 ;
 

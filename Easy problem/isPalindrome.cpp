@@ -17,16 +17,8 @@ bool isPalindrome(int x){
 }
 
 int main (){
-    freopen("./in.txt", "r", stdin);
-    
-
-    int x ;
-    cin >> x; 
-    cout <<x  << endl;
-    cout << isPalindrome(x) << endl ; 
-
-    fclose(stdin);
-
+  
+    cout << isPalindrome(151) << endl ; 
     return 0 ;
 
 }
