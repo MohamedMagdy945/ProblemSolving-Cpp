@@ -33,8 +33,5 @@ int main(){
     string s ; 
     cin >> s;
     cout<< isValid(s) << endl ;
-
     fclose(stdin);
-
-    
 }
