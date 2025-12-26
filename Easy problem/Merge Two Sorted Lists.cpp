@@ -52,5 +52,12 @@ int main(){
         temp = temp->next;
     }
     cout << endl ;
+
+    delete node1;
+    delete node2;
+    delete node3;
+    delete node4;
+    delete node5;
+    delete node6;
     return 0 ;
 }
