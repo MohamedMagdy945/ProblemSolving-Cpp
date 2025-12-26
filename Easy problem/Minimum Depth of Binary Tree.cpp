@@ -17,12 +17,12 @@ int minDepth(TreeNode* root) {
     if (!root) return 0;
     queue<TreeNode*> q;
     q.push(root);
-    int depth = 0 ;
+    int depth = 1 ;
     while (!q.empty())
     {
         
         int s = q.size();
-        for(int i = 0 ; i < q.size() ; i++)
+        for(int i = 0 ; i < s ; i++)
         {
             TreeNode* node = q.front();
             q.pop();
