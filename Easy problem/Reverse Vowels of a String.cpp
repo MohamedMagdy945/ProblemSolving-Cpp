@@ -1,0 +1,25 @@
+#include<iostream>
+#include<unordered_set>
+using namespace std;
+
+string reverseVowels(string s) {
+    unordered_set<char> vowels = {'a' ,'e','i','o' ,'u','A' , 'E','I' ,'O','U'};
+    int right = s.size()-1;
+    int left = 0;
+
+    while (left < right) {
+        while (left < right && !vowels.count(s[left])) left++;
+        while (left < right && !vowels.count(s[right])) right--;
+
+        if (left < right) {
+            swap(s[left], s[right]);
+            left++;
+            right--;
+        }
+    }
+    return s;
+}
+int main(){
+    cout << reverseVowels("Ui") << endl;
+    return 0;
+}
